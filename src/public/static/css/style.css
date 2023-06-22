@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.container {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3,30%);
+    grid-template-rows: auto;
+    place-content: center;
+    /* place-items: center; */
+}
+
+.card {
+    width: 100%;
+    height: 400px;
+    display: grid;
+    place-content: center;
+}
+
+.cardImage {
+    width: 300px;
+    height: 300px;
+    border: 3px solid red;
+    border-radius: 30px;
+}
+
+.precioCard{
+    width: 100%;
+    margin: 10px 0;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.btnComprar {
+    width: 45%;
+    height: 35px;
+    margin: 10px auto;
+    border-radius: 40px;
+    border: none;
+    background: rgb(255, 0, 0);
+}
+
+.btnComprar:hover {
+    background-color: rgb(23, 221, 106);
+}
+
+.btnComprar a:hover {
+    color: rgb(0, 0, 0);
+}
+
+.btnComprar a {
+    color: #ffffff;
+    text-transform: capitalize;
+    text-decoration: none;
+}
