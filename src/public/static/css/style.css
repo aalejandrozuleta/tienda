@@ -1,0 +1,16 @@
+.opcionesProductos {
+    width: 100%;
+    height: 50px;
+
+    display: grid;
+    grid-template-columns: repeat(3,30%);
+    place-content: center;
+    place-items: center;
+}
+
+.selecOpciones {
+    width: 50%;
+    height: 100%;
+    border-radius: 40px;
+    text-align: center;
+}
