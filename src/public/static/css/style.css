@@ -20,7 +20,7 @@ header {
 
 .card {
     width: 100%;
-    height: 400px;
+    height: 500px;
     display: grid;
     place-content: center;
 }
@@ -60,4 +60,27 @@ header {
     color: #ffffff;
     text-transform: capitalize;
     text-decoration: none;
+}
+
+.carrito {
+    width: 10%;
+    height: 60px;
+    text-align: center;
+
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    place-content: center;
+    place-items: center;
+
+    margin: 10px auto;
+}
+
+.carrito a {
+    width: 40px;
+    height: 100%;
+}
+
+.carrito a img {
+    width: 100%;
+    height: 100%;
 }
